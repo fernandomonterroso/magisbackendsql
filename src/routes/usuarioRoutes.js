@@ -40,7 +40,8 @@ api.delete('/borrar-tarea/:id', md_auth.ensureAuth,TareaController.eliminarTarea
 
 //MAGGIES
 api.post('/crearCategoria',CategoryController.createCategory);
-api.post('/crearProducto',ProductController.createProduct);
-api.get('/listarProductos',ProductController.listarProductos);
+api.get('/get',ProductController.createCategory);
+//api.post('/crearProducto',ProductController.createProduct);
+//api.get('/listarProductos',ProductController.listarProductos);
 api.post('/crearDescuento',DiscountController.createDiscount);
 module.exports = api;   

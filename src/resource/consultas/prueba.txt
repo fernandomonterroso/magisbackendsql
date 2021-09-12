@@ -1,0 +1,1 @@
+SELECT * FROM magis.categorias where idcategorias = :gafete
